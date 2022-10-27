@@ -16,3 +16,8 @@ git reset --hard (id do reflog) -> retor para uma versão alterada anteriormente
 git branch -> listar as branches
 git branch (nome da branch) -> cria uma nova branch
 git checkout staging
+
+
+Problema de fechar o terminal e dar conflito no novo:
+Esse problema ocorre sempre que você executa dois comandos git simultaneamente, talvez um do prompt de comando e um do IDE
+solução: rm -f .git/index.lock
