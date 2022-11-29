@@ -8,8 +8,8 @@ git status
 git add <arquivo> -> (nome arquivo + extensão)
 git add . -> adiciona todos os arquivos da pasta
 git commit -m "descreva a alteração" -> serve para registrar a alteração feita
-git remote add origin https://github.com/EwertonAvlis/tecnicas-programacao-I-ada -> vincula à pasta do git
-git push --set-upstream origin master -> habilita a brach Master
+git remote add origin https://github.com/EwertonAvlis/tecnicas-programacao-I-ada.git -> vincula à pasta do git
+git push -u origin master -> habilita a brach Master
 git push origin -> envia o arquivo para o repositório do git
 git reflog -> traz as alterações realizadas
 git reset --hard (id do reflog) -> retor para uma versão alterada anteriormente 
